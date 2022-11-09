@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: #f5f5f5;
+  font-family: "Josefin Slab", serif;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #f5f5f5;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.content-title {
+  padding: 24px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: underline;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.content-subtitle {
+  padding: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.content-text,
+ol {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 16px;
+}
+
+ol {
+  list-style-position: inside;
+}
